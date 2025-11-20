@@ -43,7 +43,7 @@ class Colors:
     YELLOW = "\033[93m"
     MAGENTA = "\033[95m"
     RESET = "\033[0m"
-
+A
 def c(text, color, enabled=True):
     return f"{color}{text}{Colors.RESET}" if enabled else text
 
